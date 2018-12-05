@@ -1,0 +1,11 @@
+<Context>
+    <Resource name="newspaper_items"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="root"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql:/localhost:3306/newspaper_items"
+              maxActive="15"
+              maxIdle="3"/>
+</Context>
